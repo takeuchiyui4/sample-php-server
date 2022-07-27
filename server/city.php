@@ -2,7 +2,7 @@
 
 ini_set('display_errors',"On");
 // MySQLiコネクタを生成
-$Link = mysqli_connect("localhost","root","","world");
+$Link = mysqli_connect("db","root","root","world");
 
 // DBコネクションを確率
 if(!$Link) {
